@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene1Controller">
+   <children>
+      <TextField fx:id="inputTextField" layoutX="50.0" layoutY="170.0" prefHeight="80.0" prefWidth="500.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="50.0" layoutY="119.0" prefHeight="50.0" prefWidth="500.0" text="Input text:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="240.0" layoutY="266.0" mnemonicParsing="false" onAction="#addToList" prefHeight="30.0" prefWidth="120.0" text="add">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="240.0" layoutY="360.0" mnemonicParsing="false" onAction="#setScene2" prefHeight="30.0" prefWidth="120.0" text="scene2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="50.0" layoutY="360.0" mnemonicParsing="false" onAction="#setScene1" prefHeight="30.0" prefWidth="120.0" text="scene1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="430.0" layoutY="360.0" mnemonicParsing="false" onAction="#setScene3" prefHeight="30.0" prefWidth="120.0" text="scene3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
